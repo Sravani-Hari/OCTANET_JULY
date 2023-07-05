@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    margin:0;
+    padding:0;
+    background:#e1e8e3;
+}
+.image {
+    width:50px;
+    height:50px;
+    
+}
+
+nav {
+    width:100%;
+    overflow:auto;
+    background:green;
+    justify-content:space-between;
+}
+
+ul {
+    padding:0;
+    margin:0 0 0 250px;
+    list-style-type:none;
+}
+
+
+li a {
+    width:100px;
+    display:block;
+    padding:20px 15px;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align:center;
+}
+
+li {
+    float:left;
+}
+
+li a:hover {
+    background: gray;
+    text-transform: uppercase;
+    transition:0.3s;
+}
+
+.logo img{
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.sapling {
+    padding:40px;
+    width:50%;
+    object-fit:cover;
+    float:right;
+    margin:20px;
+}
+.headline {
+    font-family:'Arial';
+    font-size:40px;
+    font-style:initial;
+    font-weight:500;
+    color:#104d06;
+    padding:30px;
+    margin:20px;
+    text-align:center;
+
+}
+.description {
+    font-family:'Verdana';
+    font-size:18px;
+    font-style:normal;
+    font-weight:normal;
+    color:#104d06;
+    margin:15px;
+    padding:15px;
+    text-align:center;
+}
+
+.container {
+        margin:40px;
+        padding:40px;    
+}
+
+.button {
+    background-color:#104d06;
+    color:#fff;
+    font-family:'Roboto';
+    font-size:15px;
+    font-weight:normal;
+    float:right;
+    border-radius:5px;
+    border-color: none;
+    border-width:0;
+    width:136px;
+    height:36px;
+    padding:10px;
+
+
+} 
+.button:hover {
+    background:gray;
+    color:#104d06
+
+}
+
+footer {
+    background:lightgreen;
+    padding:50px;
+    
+   
+}
+.icons {
+    display:flex;
+    justify-content:center;
+    font-size:2em;
+    justify-content:space-evenly;
+    
+}
+
+.bottom {
+    text-align:center;
+}
+
